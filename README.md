@@ -1,55 +1,51 @@
-Kebijakan Privasi (Privacy Policy) - Kasir Mini Offline
-Terakhir Diperbarui: 24 Mei 2024
-Hyee Code ("kami") berkomitmen untuk melindungi privasi pengguna aplikasi Kasir Mini Offline. Kebijakan Privasi ini menjelaskan bagaimana informasi Anda dikumpulkan, digunakan, dan dilindungi saat Anda menggunakan aplikasi kami.
-1. Informasi yang Kami Kumpulkan
-Aplikasi ini pada dasarnya adalah aplikasi OFFLINE.
+Kebijakan Privasi & Penghapusan Data - Kasir Mini Offline
+Terakhir Diperbarui: 24 Mei 2024 Developer: Hyee Code Email: sergiomuhye@gmail.com
+1. Pendahuluan
+Hyee Code ("kami") berkomitmen untuk melindungi privasi pengguna aplikasi Kasir Mini Offline. Kebijakan ini menjelaskan bagaimana informasi Anda dikumpulkan, digunakan, dan dilindungi saat Anda menggunakan aplikasi kami.
+2. Informasi yang Kami Kumpulkan (Data Offline)
+Aplikasi ini dirancang sebagai aplikasi OFFLINE.
 •
-Data Transaksi & Produk: Semua data yang Anda masukkan (nama produk, harga, stok, dan riwayat penjualan) disimpan secara lokal di perangkat Anda menggunakan database terenkripsi (Android Room). Kami TIDAK mengirimkan data ini ke server kami.
+Data Transaksi & Produk: Semua data yang Anda masukkan (nama produk, harga, stok, dan riwayat penjualan) disimpan secara lokal di perangkat Anda menggunakan database terenkripsi (Android Room). Kami TIDAK mengirimkan atau menyimpan data bisnis Anda di server kami.
 •
-Informasi Perangkat: Kami dapat mengumpulkan informasi teknis standar seperti versi sistem operasi untuk tujuan pemecahan masalah (crash reporting) jika diperlukan.
-2. Izin Aplikasi (Permissions)
-Aplikasi ini memerlukan beberapa izin untuk berfungsi secara maksimal:
+Informasi Perangkat: Kami mungkin mengumpulkan informasi teknis standar seperti versi OS untuk tujuan perbaikan bug (crash reporting).
+3. Izin Aplikasi (Permissions)
+Aplikasi memerlukan izin berikut untuk berfungsi:
 •
-Kamera: Digunakan hanya untuk memindai barcode/QR code produk. Kami tidak mengambil atau menyimpan foto/video tanpa izin Anda.
+Kamera: Digunakan hanya untuk memindai barcode/QR code produk.
 •
-Biometrik (Sidik Jari/Wajah): Digunakan untuk mengunci aplikasi agar data Anda aman. Proses otentikasi dilakukan sepenuhnya oleh sistem Android; kami tidak memiliki akses ke data biometrik Anda.
+Biometrik: Digunakan untuk mengunci aplikasi. Proses dilakukan sepenuhnya oleh sistem Android; kami tidak memiliki akses ke data sidik jari/wajah Anda.
 •
-Penyimpanan (Storage): Digunakan untuk menyimpan file laporan penjualan yang Anda ekspor ke format Excel atau PDF.
+Penyimpanan: Digunakan untuk menyimpan file laporan yang Anda ekspor (Excel/PDF).
 •
-Akses Akun Google (Google Drive API): Jika Anda mengaktifkan fitur Backup, aplikasi akan meminta izin untuk mengakses Google Drive Anda guna menyimpan file cadangan. Data ini sepenuhnya milik Anda dan dikelola di Drive pribadi Anda.
-3. Keamanan Data
-Karena semua data disimpan di dalam memori internal HP Anda, keamanan data tersebut bergantung pada keamanan perangkat Anda. Kami sangat menyarankan agar Anda:
-•
-Mengaktifkan fitur kunci aplikasi (Biometrik) yang telah kami sediakan.
-•
-Melakukan backup data secara rutin ke Google Drive atau ekspor ke Excel untuk menghindari kehilangan data jika HP rusak atau hilang.
-4. Pihak Ketiga
-Aplikasi kami mungkin menggunakan layanan pihak ketiga yang dapat mengumpulkan informasi yang digunakan untuk mengidentifikasi Anda:
-•
-Google Play Services (untuk penagihan/In-app purchase jika ada).
-•
-Google Drive API (untuk sinkronisasi backup).
-5. Privasi Anak-anak
-Layanan ini tidak ditujukan bagi siapa pun yang berusia di bawah 13 tahun. Kami tidak secara sengaja mengumpulkan informasi pribadi dari anak-anak di bawah 13 tahun.
-6. Perubahan Kebijakan
-Kami dapat memperbarui Kebijakan Privasi kami dari waktu ke waktu. Setiap perubahan akan diumumkan di halaman ini.
-7. Hubungi Kami
-Jika Anda memiliki pertanyaan atau saran tentang Kebijakan Privasi ini, jangan ragu untuk menghubungi kami di:
-•
-Penghapusan Akun dan Data (Account Deletion)
-Jika Anda ingin menghapus akun Google yang tertaut dengan aplikasi Kasir Mini Offline dan data terkait (seperti backup di Google Drive), silakan ikuti langkah berikut:
+Akses Google Drive: Digunakan hanya jika Anda mengaktifkan fitur Backup. Data cadangan disimpan di akun Drive pribadi Anda sendiri.
+4. Keamanan Data
+Karena semua data disimpan di memori internal HP Anda, keamanan data tersebut bergantung pada keamanan perangkat Anda. Kami menyarankan Anda mengaktifkan fitur kunci aplikasi dan melakukan backup rutin ke Google Drive.
+5. Penghapusan Akun dan Data (Account & Data Deletion)
+Sesuai dengan kebijakan Google Play, kami menyediakan cara bagi pengguna untuk menghapus akun dan data mereka:
+A. Penghapusan Akun Google (OAuth)
+Jika Anda ingin memutus tautan akun Google Anda:
 1.
 Buka aplikasi, masuk ke menu Setting.
 2.
 Pilih opsi Logout atau Disconnect Google Drive.
 3.
-Jika Anda ingin kami menghapus sisa data identitas yang kami akses melalui Google Sign-In, silakan hubungi kami melalui email di [Email Anda] dengan subjek "Permintaan Penghapusan Data".
-4.
-Kami akan memproses penghapusan data identitas Anda dalam waktu 3-5 hari kerja.
-5.
-Catatan: Data transaksi lokal di HP Anda akan terhapus secara otomatis jika Anda menghapus instalan aplikasi (Uninstall).
-
-
+Tautan antara aplikasi dan akun Google Anda akan segera dihapus.
+B. Penghapusan Data Pengguna
+1.
+Data Lokal: Anda dapat menghapus seluruh data transaksi dan produk secara permanen dengan masuk ke menu Setting > Hapus Semua Data di dalam aplikasi, atau dengan melakukan Uninstall aplikasi dari HP Anda.
+2.
+Data Backup (Cloud): Anda dapat menghapus file cadangan kapan saja secara manual melalui akun Google Drive Anda di folder "KasirMiniOffline_Backup".
+3.
+Permintaan Penghapusan Identitas: Jika Anda ingin kami menghapus sisa data identitas (Nama & Email) yang pernah terakses melalui Google Sign-In dari catatan sistem kami, silakan hubungi kami di sergiomuhye@gmail.com dengan subjek "Permintaan Penghapusan Data". Kami akan memprosesnya dalam waktu 3-5 hari kerja.
+6. Pihak Ketiga
+Aplikasi menggunakan layanan pihak ketiga yang mungkin mengumpulkan informasi identitas untuk fungsi teknis:
+•
+Google Play Services (Penagihan/IAP)
+•
+Google Drive API (Backup)
+7. Hubungi Kami
+Jika Anda memiliki pertanyaan tentang kebijakan ini atau ingin mengajukan penghapusan data, hubungi kami di:
+•
 Developer: Hyee Code
 •
-Email: [www.sergiomuhye@gmail.com]
+Email: sergiomuhye@gmail.com
