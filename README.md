@@ -36,6 +36,20 @@ Kami dapat memperbarui Kebijakan Privasi kami dari waktu ke waktu. Setiap peruba
 7. Hubungi Kami
 Jika Anda memiliki pertanyaan atau saran tentang Kebijakan Privasi ini, jangan ragu untuk menghubungi kami di:
 •
+Penghapusan Akun dan Data (Account Deletion)
+Jika Anda ingin menghapus akun Google yang tertaut dengan aplikasi Kasir Mini Offline dan data terkait (seperti backup di Google Drive), silakan ikuti langkah berikut:
+1.
+Buka aplikasi, masuk ke menu Setting.
+2.
+Pilih opsi Logout atau Disconnect Google Drive.
+3.
+Jika Anda ingin kami menghapus sisa data identitas yang kami akses melalui Google Sign-In, silakan hubungi kami melalui email di [Email Anda] dengan subjek "Permintaan Penghapusan Data".
+4.
+Kami akan memproses penghapusan data identitas Anda dalam waktu 3-5 hari kerja.
+5.
+Catatan: Data transaksi lokal di HP Anda akan terhapus secara otomatis jika Anda menghapus instalan aplikasi (Uninstall).
+
+
 Developer: Hyee Code
 •
 Email: [www.sergiomuhye@gmail.com]
