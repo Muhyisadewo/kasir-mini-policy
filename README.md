@@ -1,5 +1,5 @@
 Kebijakan Privasi & Penghapusan Data - Kasir Mini Offline
-Terakhir Diperbarui: 24 Mei 2024 Developer: Hyee Code Email: sergiomuhye@gmail.com
+Terakhir Diperbarui: 24 Mei 2024 Developer: Hyee Code Email: www.sergiomuhye@gmail.com
 1. Pendahuluan
 Hyee Code ("kami") berkomitmen untuk melindungi privasi pengguna aplikasi Kasir Mini Offline. Kebijakan ini menjelaskan bagaimana informasi Anda dikumpulkan, digunakan, dan dilindungi saat Anda menggunakan aplikasi kami.
 2. Informasi yang Kami Kumpulkan (Data Offline)
@@ -48,4 +48,4 @@ Jika Anda memiliki pertanyaan tentang kebijakan ini atau ingin mengajukan pengha
 •
 Developer: Hyee Code
 •
-Email: sergiomuhye@gmail.com
+Email: www.sergiomuhye@gmail.com
