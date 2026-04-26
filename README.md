@@ -36,7 +36,7 @@ Data Lokal: Anda dapat menghapus seluruh data transaksi dan produk secara perman
 2.
 Data Backup (Cloud): Anda dapat menghapus file cadangan kapan saja secara manual melalui akun Google Drive Anda di folder "KasirMiniOffline_Backup".
 3.
-Permintaan Penghapusan Identitas: Jika Anda ingin kami menghapus sisa data identitas (Nama & Email) yang pernah terakses melalui Google Sign-In dari catatan sistem kami, silakan hubungi kami di sergiomuhye@gmail.com dengan subjek "Permintaan Penghapusan Data". Kami akan memprosesnya dalam waktu 3-5 hari kerja.
+Permintaan Penghapusan Identitas: Jika Anda ingin kami menghapus sisa data identitas (Nama & Email) yang pernah terakses melalui Google Sign-In dari catatan sistem kami, silakan hubungi kami di www.sergiomuhye@gmail.com dengan subjek "Permintaan Penghapusan Data". Kami akan memprosesnya dalam waktu 3-5 hari kerja.
 6. Pihak Ketiga
 Aplikasi menggunakan layanan pihak ketiga yang mungkin mengumpulkan informasi identitas untuk fungsi teknis:
 •
