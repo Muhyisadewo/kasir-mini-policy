@@ -3,53 +3,123 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - Kasir Mini Offline</title>
+    <title>Kebijakan Privasi - Kasir Mini Offline</title>
     <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 30px; }
-        h1 { color: #597001; border-bottom: 2px solid #8BB026; padding-bottom: 10px; }
-        h2 { color: #597001; margin-top: 30px; }
-        h3 { color: #8BB026; margin-top: 25px; }
-        p, li { font-size: 16px; }
-        .deletion-box { background-color: #f9f9f9; border-left: 5px solid #8BB026; padding: 15px; margin-top: 20px; }
-        .footer { margin-top: 50px; font-size: 0.9em; color: #777; border-top: 1px solid #eee; padding-top: 20px; text-align: center; }
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            line-height: 1.6; 
+            color: #333; 
+            max-width: 800px; 
+            margin: 0 auto; 
+            padding: 40px 20px; 
+            background-color: #fcfcfc;
+        }
+        .container {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+        h1 { 
+            color: #597001; 
+            border-bottom: 3px solid #8BB026; 
+            padding-bottom: 15px; 
+            font-size: 2em;
+        }
+        h2 { 
+            color: #597001; 
+            margin-top: 35px; 
+            font-size: 1.4em;
+            border-left: 5px solid #8BB026;
+            padding-left: 15px;
+        }
+        p, li { font-size: 16px; color: #444; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 10px; }
+        .last-updated { color: #888; font-size: 0.9em; margin-bottom: 30px; }
+        .highlight { font-weight: bold; color: #597001; }
+        .contact-box { 
+            background-color: #f1f8e9; 
+            border-radius: 8px; 
+            padding: 20px; 
+            margin-top: 40px;
+            border: 1px solid #dcedc8;
+        }
+        .footer { 
+            margin-top: 60px; 
+            font-size: 0.85em; 
+            color: #999; 
+            text-align: center; 
+            border-top: 1px solid #eee; 
+            padding-top: 20px; 
+        }
     </style>
 </head>
 <body>
-    <h1>Kebijakan Privasi - Kasir Mini Offline</h1>
-    <p><em>Terakhir Diperbarui: 24 Mei 2024</em></p>
+    <div class="container">
+        <h1>Kebijakan Privasi</h1>
+        <p class="last-updated">Terakhir diperbarui: 28 April 2026</p>
 
-    <p><strong>KAMI</strong> berkomitmen untuk melindungi privasi pengguna aplikasi Kasir Mini Offline. Kebijakan ini menjelaskan bagaimana informasi Anda dikumpulkan, digunakan, dan dilindungi.</p>
+        <p>Aplikasi <span class="highlight">Kasir Mini Offline</span> berkomitmen untuk melindungi privasi pengguna kami. Kebijakan ini menjelaskan bagaimana informasi Anda dikelola dalam aplikasi kami yang mengutamakan privasi dan keamanan loka.</p>
 
-    <h3>1. Penyimpanan Data Offline</h3>
-    <p>Aplikasi ini bekerja sepenuhnya secara offline. Semua data produk dan transaksi disimpan di memori internal perangkat Anda (Local Database). Kami tidak memiliki akses ke data tersebut.</p>
+        <h2>1. Informasi yang Kami Kumpulkan</h2>
+        <p>Aplikasi ini pada dasarnya adalah aplikasi <strong>OFFLINE</strong>.</p>
+        <ul>
+            <li><strong>Data Toko & Profil:</strong> Kami mengumpulkan informasi yang Anda masukkan secara sukarela seperti Nama Toko, Alamat, dan Nomor WhatsApp. Data ini digunakan murni untuk keperluan pencetakan struk dan identitas aplikasi.</li>
+            <li><strong>Data Transaksi & Produk:</strong> Semua data produk, stok, dan riwayat penjualan disimpan secara lokal di perangkat Anda menggunakan database terenkripsi (Android Room dengan SQLCipher). Kami <strong>TIDAK</strong> mengirimkan data ini ke server kami.</li>
+            <li><strong>Informasi Perangkat:</strong> Kami dapat mengumpulkan informasi teknis standar seperti versi sistem operasi untuk tujuan pemecahan masalah (crash reporting) secara anonim melalui Google Play Services.</li>
+        </ul>
 
-    <h3>2. Izin Kamera & Barcode</h3>
-    <p>Izin kamera digunakan hanya untuk memindai barcode produk. Tidak ada data gambar yang dikirim keluar dari perangkat atau disimpan sebagai file foto.</p>
+        <h2>2. Izin Aplikasi (Permissions)</h2>
+        <p>Aplikasi ini memerlukan beberapa izin untuk berfungsi:</p>
+        <ul>
+            <li><strong>Kamera:</strong> Hanya digunakan untuk memindai barcode/QR code produk. Kami tidak mengambil foto atau video tanpa seizin Anda.</li>
+            <li><strong>Biometrik:</strong> Digunakan untuk mengunci aplikasi. Proses otentikasi dilakukan oleh sistem Android; kami tidak memiliki akses ke data sidik jari atau wajah Anda.</li>
+            <li><strong>Akses Google Drive:</strong> Jika Anda mengaktifkan fitur Backup, aplikasi akan meminta izin untuk menyimpan file cadangan ke Google Drive pribadi Anda. Data ini dikelola sepenuhnya oleh Anda sendiri.</li>
+            <li><strong>Internet:</strong> Diperlukan untuk proses Login Google, Sinkronisasi Cloud, dan validasi status langganan Premium.</li>
+        </ul>
 
-    <h3>3. Keamanan Biometrik</h3>
-    <p>Fitur sidik jari/wajah dikelola sepenuhnya oleh sistem keamanan Android. Aplikasi tidak mengambil, mengakses, atau menyimpan data biometrik Anda.</p>
+        <h2>3. Penghapusan Data</h2>
+        <p>Karena data disimpan secara lokal, Anda memiliki kendali penuh:</p>
+        <ul>
+            <li><strong>Menghapus Aplikasi:</strong> Menghapus aplikasi akan menghapus seluruh data transaksi di perangkat Anda secara permanen.</li>
+            <li><strong>Data Cloud:</strong> Anda dapat menghapus file cadangan ('kasir_mini_v4.db') secara manual melalui akun Google Drive Anda kapan saja.</li>
+        </ul>
 
-    <h3>4. Backup Google Drive</h3>
-    <p>Jika Anda mengaktifkan fitur backup, data akan disimpan secara aman di akun Google Drive pribadi Anda melalui API resmi Google. Data ini sepenuhnya milik Anda dan di bawah kendali Anda.</p>
+        <h2>4. Keamanan Data</h2>
+        <p>Karena semua data disimpan di dalam memori internal HP Anda, keamanan data tersebut bergantung pada keamanan perangkat Anda. Kami sangat menyarankan agar Anda:</p>
+        <ul>
+            <li>Mengaktifkan fitur kunci aplikasi (Biometrik/PIN) yang telah kami sediakan.</li>
+            <li>Melakukan backup data secara rutin ke Google Drive untuk menghindari kehilangan data jika HP rusak atau hilang.</li>
+            <li>Menggunakan fitur keamanan perangkat seperti PIN layar kunci.</li>
+        </ul>
 
-    <hr>
+        <h2>5. Pihak Ketiga</h2>
+        <p>Aplikasi kami mungkin menggunakan layanan pihak ketiga yang dapat mengumpulkan informasi yang digunakan untuk mengidentifikasi Anda:</p>
+        <ul>
+            <li>Google Play Services (autentikasi & crash reporting).</li>
+            <li>Google Drive API (sinkronisasi backup).</li>
+            <li>Google Play Billing (pembelian fitur premium).</li>
+        </ul>
 
-    <h2>Penghapusan Akun dan Data (Account Deletion)</h2>
-    <div class="deletion-box">
-        <p>Jika Anda ingin menghapus akun Google yang tertaut dengan aplikasi Kasir Mini Offline dan data terkait, silakan ikuti langkah-langkah berikut:</p>
-        <ol>
-            <li>Buka aplikasi, masuk ke menu <strong>Setting</strong>.</li>
-            <li>Pilih opsi <strong>Logout</strong> atau <strong>Disconnect Google Drive</strong> untuk memutuskan tautan.</li>
-            <li>Untuk menghapus seluruh data transaksi lokal, Anda dapat memilih menu <strong>Hapus Semua Data</strong> di dalam aplikasi atau dengan melakukan <strong>Uninstall</strong> aplikasi.</li>
-            <li>Jika Anda ingin kami menghapus sisa data identitas (Nama & Email) yang diakses melalui Google Sign-In dari catatan sistem kami, silakan hubungi kami melalui email di <strong>www.sergiomuhye@gmail.com</strong> dengan subjek "Permintaan Penghapusan Data".</li>
-            <li>Kami akan memproses permintaan penghapusan data identitas Anda dalam waktu 3-5 hari kerja.</li>
-        </ol>
-        <p><strong>Catatan:</strong> Data transaksi lokal yang telah dihapus atau di-uninstall tidak dapat dipulihkan kembali.</p>
-    </div>
+        <h2>6. Privasi Anak-anak</h2>
+        <p>Layanan ini tidak ditujukan bagi siapa pun yang berusia di bawah 13 tahun. Kami tidak secara sengaja mengumpulkan informasi pribadi dari anak-anak di bawah 13 tahun.</p>
 
-    <div class="footer">
-        Hubungi kami: <strong>www.sergiomuhye@gmail.com</strong><br>
-        Dikembangkan oleh <strong>Muhyi Sadewo</strong>
+        <h2>7. Perubahan Kebijakan</h2>
+        <p>Kami dapat memperbarui Kebijakan Privasi kami dari waktu ke waktu. Setiap perubahan akan diumumkan di halaman ini dan di dalam aplikasi.</p>
+
+        <div class="contact-box">
+            <h2>8. Hubungi Kami</h2>
+            <p>Jika Anda memiliki pertanyaan tentang Kebijakan Privasi ini, hubungi kami di:</p>
+            <p>
+                Developer: <strong>Muhyi Sadewo</strong><br>
+                Email: <a href="mailto:www.sergiomuhye@gmail.com" style="color: #597001; font-weight: bold;">www.sergiomuhye@gmail.com</a>
+            </p>
+        </div>
+
+        <div class="footer">
+            &copy; 2026 Kasir Mini Team. Seluruh hak cipta dilindungi.
+        </div>
     </div>
 </body>
 </html>
